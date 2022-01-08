@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://os.ratrig.com/blog</id>
     <title>RatOS Blog</title>
-    <updated>2021-11-14T00:00:00.000Z</updated>
+    <updated>2022-01-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://os.ratrig.com/blog"/>
     <subtitle>RatOS Blog</subtitle>
     <icon>https://os.ratrig.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[RatOS V1.1 Released!]]></title>
+        <id>ratos-v1-1-released</id>
+        <link href="https://os.ratrig.com/blog/ratos-v1-1-released"/>
+        <updated>2022-01-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[RatOS V1.1 is now released!]]></summary>
+        <content type="html"><![CDATA[<h2>RatOS V1.1 is now released!</h2><p>As some of you may have noticed, RatOS v1.1 has been released this week, bringing new templates, new modular driver and stepper definitions and
+support for new extruders and hotends. This release also contains an updated V-Minion template that will run out of the box with the just released <a href="https://www.ratrig.com/v-minion.html">V-Minion full kits</a> that will start shipping soon.</p><h3>Changes to stepper motors and driver settings.</h3><p>This release mainly revolves around the new stepper/stepper driver setting recommendations from Klipper. <code>Hold_current</code> has been removed, stealthchop is now entirely disabled by default, interpolation has been disabled and microsteps have been increased to 64 to counteract the additional noise. This increases precision and you may see an increase in print quality.
+This change comes with the side effect of increased &quot;R2D2 noise&quot;, tuned driver settings for the most used steppers have been included to combat this, but they will never be as silent in standstill as with stealthchop_threshold: 1. If you want a quieter printer refer to the &quot;stealth mode&quot; includes in the new printer templates, this will turn on stealthchop and limit print velocity at the cost of significantly reduced torque and precision.
+A nice consequence of this change is that it made it easier to make drivers and steppers more modular, it&#x27;s now much easier to run high voltage steppers on some stepper slots, read more in the <a href="/docs/configuration/advanced-stepper-configuration">Advanced Stepper Configuration</a> guide.</p><h3>Updating from RatOS v1.0</h3><p>V1.1 is backwards compatible, but there are still a couple of things you might want to do, read more in the <a href="/changelog#updating-from-ratos-v10">Update Guide</a>.</p><h3>THANK YOU for your support</h3><p>Thank you to everyone who donated, helped me test and suggest changes and improvements, it is much appreciated!</p>]]></content>
+        <author>
+            <name>Mikkel Schmidt</name>
+            <uri>https://github.com/miklschmidt</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RatOS V1.0 Released!]]></title>
         <id>ratos-v1-0-released</id>
