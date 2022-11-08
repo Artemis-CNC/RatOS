@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[1037],{5483:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/klipper","name":"klipper","count":1,"permalink":"/blog/tags/klipper"}')}}]);
