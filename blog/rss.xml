@@ -19,7 +19,8 @@ We have 4 USB ports (and you can add more via hubs) on a standard raspberry pi, 
             <category>RatOS</category>
             <category>CAN</category>
             <category>USB</category>
-            <category>klipper</category>
+            <category>Klipper</category>
+            <category>Rant</category>
         </item>
         <item>
             <title><![CDATA[Moonraker is now safe to update]]></title>

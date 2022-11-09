@@ -23,7 +23,8 @@ We have 4 USB ports (and you can add more via hubs) on a standard raspberry pi, 
         <category label="RatOS" term="RatOS"/>
         <category label="CAN" term="CAN"/>
         <category label="USB" term="USB"/>
-        <category label="klipper" term="klipper"/>
+        <category label="Klipper" term="Klipper"/>
+        <category label="Rant" term="Rant"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Moonraker is now safe to update]]></title>
