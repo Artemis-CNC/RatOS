@@ -19,3 +19,4 @@ build.log
 .DS_Store
 *~
 .*.swp
+RatOS.code-workspace
