@@ -18,8 +18,8 @@ moonraker_folder=~/moonraker
 ### Path to your Mainsail folder, by default that is '~/mainsail'
 mainsail_folder=~/mainsail
 
-### Path to your Fluidd folder, by default that is '~/fluidd'
-#fluidd_folder=~/fluidd
+### Path to your klipper_logs folder, by default that is '~/klipper_logs'
+klipper_logs_folder=~/klipper_logs
 
 #####################################################################
 #####################################################################
@@ -51,11 +51,11 @@ grab_version(){
     m3="Mainsail version: $mainsail_ver"
     echo $mainsail_ver
   fi
-  if [ ! -z "$fluidd_folder" ]; then
-    echo -n "Getting fluidd version="
-    fluidd_ver=$(head -n 1 $fluidd_folder/.version)
-    m4="Fluidd version: $fluidd_ver"
-    echo $fluidd_ver
+  if [ ! -z "$klipper_logs_folder" ]; then
+    echo -n "Getting klipper_logs version="
+    klipper_logs_ver=$(head -n 1 $klipper_logs_folder/.version)
+    m4="klipper_logs version: $klipper_logs_ver"
+    echo $klipper_logs_ver
   fi
 }
 
