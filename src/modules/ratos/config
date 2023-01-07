@@ -3,4 +3,4 @@
 [ -n "$RATOS_THEME_SHIP" ] || RATOS_THEME_SHIP=https://github.com/Artemis-CNC/RatOS-theme.git
 [ -n "$RATOS_THEME_BRANCH" ] || RATOS_THEME_BRANCH=hevo-v2.x
 [ -n "$RATOS_CONFIGURATOR_SHIP" ] || RATOS_CONFIGURATOR_SHIP=https://github.com/Artemis-CNC/RatOS-configurator.git
-[ -n "$RATOS_CONFIGURATOR_BRANCH" ] || RATOS_CONFIGURATOR_BRANCH=v2.x-deployment
+[ -n "$RATOS_CONFIGURATOR_BRANCH" ] || RATOS_CONFIGURATOR_BRANCH=hevo-v2.x
