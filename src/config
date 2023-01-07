@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Shebang for better detection of file type
 
-export DIST_NAME=RatOS
+export DIST_NAME=HevOS
 export DIST_VERSION=2.0
 export BASE_IMAGE_ENLARGEROOT=6500
 export MODULES="base,pkgupgrade(network,piconfig,klipper,node,is_req_preinstall,moonraker,mainsail,crowsnest,ratos(linear_movement_analysis,timelapse),klipperscreen,rpi_mcu,disable-services(hotspot),dfu-util,password-for-sudo)"
